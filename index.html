@@ -9,11 +9,11 @@
   crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   
-  <title>Document</title>
+  <title>BootstrapProject</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">BootstrapProject</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,7 +46,20 @@
           <h5 class="modal-title">Modal title</h5>
         </div>
         <div class="modal-body">
-          <p>One fine body&hellip;</p>
+          <form action="">
+            <div class="row mb-3">
+              <label for=imputEmail class="col-sm-2 col-form-label">E-mail</label>
+              <div class="col-sm-10">
+                  <input type="email" class="form-control" id="inputEmail">
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label for=imputPass class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPass">
+              </div>
+            </div>
+          </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -143,6 +156,29 @@
             Rose past oh shew roof is song neat.</p>
         </div>
       </div>
+  </div>
+  <div class="container text-center">
+  <p>
+    <a class="btn btn-dark" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+    <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+    <button class="btn btn-dark" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          <img class="w-100" src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          <img class="w-100" src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80">
+        </div>
+      </div>
+    </div>
+  </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
