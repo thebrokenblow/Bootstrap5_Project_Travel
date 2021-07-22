@@ -1,0 +1,14 @@
+.navbar-dark .navbar-nav .navbar-link {
+    color: #fff;
+}
+.navbar-dark .navbar-nav .navbar-link:hover {
+    color: hsl(0, 2%, 12%);
+}
+.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-dark:hover {
+    background-color: hsl(0, 2%, 12%);
+    border-color: #fff;
+}
