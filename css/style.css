@@ -12,3 +12,59 @@
     background-color: hsl(0, 2%, 12%);
     border-color: #fff;
 }
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1604086509180-9f34ebb2e0f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80);
+    background-size: cover;
+    position: relative;
+}
+
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    position: relative;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero h2, h3 {
+    color: #fff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+
+#hero .icon-box h3 a{
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#hero .icon-box h3 a:hover {
+    color: white;
+}
+
+.icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 255, 0.3);
+    text-align: center;
+}
