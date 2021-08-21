@@ -51,7 +51,6 @@
 }
 
 #hero .icon-box h4 a:hover {
-    color: #d53545;
     text-decoration: none;
 }
 
@@ -177,7 +176,6 @@
     margin: 0 auto;
     width: 64px;
     height: 64px;
-    background: #d53545;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -205,7 +203,7 @@
 }
 
 .contact {
-    background-color: #000;
+    background-color: #fff;
 }
 
 .contact .info .info-icon {
@@ -229,17 +227,17 @@
 .contact .info p {
     padding: 0 0 0 60px;
     font-size: 14px;
-    color: #fff;
+    color: #000;
 }
 
 .info h3, p {
-    color: #fff;
+    color: #000;
 }
 
 .footer-top {
-    background: #151515;
+    background: #000;
     color: #fff;
-    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid #fff;
     padding: 60px 0 30px 0;
 }
 
