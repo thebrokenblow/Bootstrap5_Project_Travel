@@ -1,4 +1,4 @@
-<img alt="Travel" src="https://github.com/thebrokenblow/Bootstrap5_Project_Travel1/blob/master/img/main.png?raw=true" />
+<img alt="Travel" src="https://github.com/thebrokenblow/Bootstrap5_Project_Travel2/blob/master/img/main.PNG?raw=true" />
 
 <h1 align="center">
   Bootstrap5 Travel
@@ -10,7 +10,7 @@
 
 ---
 <p align="center">
-    <img alt="Travel" src="https://github.com/thebrokenblow/Bootstrap5_Project_Travel1/blob/master/img/main1.png?raw=true" />
+    <img alt="Travel" src="https://github.com/thebrokenblow/Bootstrap5_Project_Travel2/blob/master/img/main1.PNG?raw=true" />
 </p>
 
 ---
@@ -19,7 +19,7 @@
 
 ---
 
-𝘐𝘴 𝘵𝘩𝘪𝘴 𝘺𝘰𝘶𝘳 𝘧𝘪𝘳𝘴𝘵 𝘵𝘪𝘮𝘦 𝘶𝘴𝘪𝘯𝘨 𝘸𝘦𝘣 𝘱𝘳𝘰𝘫𝘦𝘤𝘵𝘴 𝘰𝘯 𝘎𝘪𝘵𝘏𝘶𝘣? 𝘛𝘢𝘬𝘦 𝘢 𝘭𝘰𝘰𝘬 𝘢𝘵 [𝘧𝘰𝘭𝘭𝘰𝘸 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬](https://github.com/thebrokenblow/Bootstrap5_Project_Travel1).
+𝘐𝘴 𝘵𝘩𝘪𝘴 𝘺𝘰𝘶𝘳 𝘧𝘪𝘳𝘴𝘵 𝘵𝘪𝘮𝘦 𝘶𝘴𝘪𝘯𝘨 𝘸𝘦𝘣 𝘱𝘳𝘰𝘫𝘦𝘤𝘵𝘴 𝘰𝘯 𝘎𝘪𝘵𝘏𝘶𝘣? 𝘛𝘢𝘬𝘦 𝘢 𝘭𝘰𝘰𝘬 𝘢𝘵 [𝘧𝘰𝘭𝘭𝘰𝘸 𝘵𝘩𝘦 𝘭𝘪𝘯𝘬](https://github.com/thebrokenblow/Bootstrap5_Project_Travel2).
 
 ## 🚀 Quick start
 
@@ -29,7 +29,7 @@
 
     ```sh
     # create a new MyCompany site using this starter
-    git clone thebrokenblow/Bootstrap5_Project_Travel1
+    git clone thebrokenblow/Bootstrap5_Project_Travel2
     ```
 
 1.  **Start developing.**
@@ -37,7 +37,7 @@
     Navigate into your new site’s directory and start it up.
 
     ```sh
-    cd Bootstrap5_Project_Travel1
+    cd Bootstrap5_Project_Travel2
     start index.html
     ```
 
