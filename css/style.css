@@ -1,6 +1,5 @@
 .catside a:hover {
     color: #d53545;
-    
 }
 
 #hero {
@@ -165,9 +164,9 @@
 }
 
 .services .icon-box {
-    border: 1px solid #afafaf;
+    border: 1px solid #000;
     padding: 80px 20px;
-    transition: all ease-in-out 0.3;
+    transition: all ease-in-out 0.3s;
     background: #fff;
     margin-bottom: 20px;
 }
@@ -271,7 +270,7 @@
 }
 
 .footer-top .social-links a:hover {
-        background: #fff;
+    background: #fff;
 }
 
 .footer-top h4 {

@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" 
     crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+     crossorigin="anonymous">
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <title>Travel Bootstrap5 Project</title>
     <script src="js/script.js"></script>
   </head>
-  <body>
-    
+  <body>    
     <header id="header" class="fixed-top">
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000">
         <a class="navbar-brand" href="#">Travel Bootstrap5 Project</a>
@@ -42,7 +46,6 @@
           </ul>
           </div>
           <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-light ml-3" type="submit">Search</button>
           </form>
         </div>
@@ -50,52 +53,20 @@
     </header>
     <section id="hero" class="d-flex align-items-center justify-content-center">
       <div class="container text-center">
-        <div class="row justify-content-center">
-          <div class="col-md-6 col-lg-8">
-            <h1>About Us</h1>
-            <p>Travel Store is the largest independently owned travel agency headquartered in California, 
-              and consistently ranked among the top 50 largest in the United States.</p>
+          <div class="row justify-content-center">
+              <div class="col-md-6 col-lg-8">
+                  <h1>Travel with us</h1>
+                  <a class="btn btn-outline-light btn-lg m-2"
+                     href="#team"
+                     role="button">
+                     Our Offers
+                  </a>
+              </div>
           </div>
-        </div>
-        <div class="row mt-5 justify-content-center">
-          <div class="col-xl-2 col-md-4 col-6">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="white" class="bi bi-key" viewBox="0 0 16 16">
-                <path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
-                <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-              </svg>
-              <h4><a href="#">Employee-Owned</h4>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4 col-6">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="white" class="bi bi-file-earmark-break" viewBox="0 0 16 16">
-                <path d="M14 4.5V9h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v7H2V2a2 2 0 0 1 2-2h5.5L14 4.5zM13 12h1v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2h1v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-2zM.5 10a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1H.5z"/>
-              </svg>
-              <h4><a href="#">Award-Winning</h4>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4 col-6">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="white" class="bi bi-phone" viewBox="0 0 16 16">
-                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
-                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-              </svg>
-              <h4><a href="#">Engaged</h4>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4 col-6">
-            <div class="icon-box">
-              <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" fill="white" class="bi bi-globe" viewBox="0 0 16 16">
-                <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
-              </svg>
-              <h4><a href="#">Connected</a></h4>
-            </div>
-          </div>
-        </div>
+          <div id="about"></div>
       </div>
-    </section>
-    <section class="about my-5" id="about">
+  </section>
+    <section class="about my-5">
       <div class="container">
         <div class="row">
         <div class="col-lg-6 order-1 order-lg-2">
@@ -142,8 +113,8 @@
           </ul>
           </div>
         </div>
-      <div>
-        <p style="color: black;" align="center">After working for Lufthansa Airlines in Frankfurt, Nairobi and New York for six years,
+      </div>
+        <p style="color: black; text-align: center;">After working for Lufthansa Airlines in Frankfurt, Nairobi and New York for six years,
            I moved to Los Angeles and opened Travel Store Inc. in 1975. We began as a boutique agency with a
             handful of employees writing paper airline tickets. Today we’ve transitioned to 
             issuing e-tickets — one of the many advancements our industry has seen in the last 40+ years.
@@ -154,9 +125,24 @@
         <h3>Call to action</h3>
         <p>We stand behind our corporate travel experience and client-centric dedication to ensure we are able
            to meet and often exceed the expectations of the most discerning travelers and travel managers.</p>
-           <button class="btn btn-outline-light ml-3" type="submit">Call to action</button>
+           <button type="button"  class="btn btn-outline-light ml-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Call to action</button>
       </div>
     </section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Call to action</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        You can contact us by phone number : +7(999)-999-99-99
+      </div>
+    </div>
+  </div>
+</div>
+
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -374,54 +360,6 @@
                 large region of the south of France.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-            <div class="icon-box">
-              <div class="icon">
-              </div>
-              <h2>Lorem, ipsum dolor.</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim consequuntur, nam deleniti similique doloremque ullam!</p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -497,7 +435,7 @@
       </div>
     </div>
     </section>
-    <footer>
+    <footer style="background-color: #000;" id="contact">
       <div class="footer-top">
         <div class="container">
           <div class="row">
@@ -514,12 +452,12 @@
               <h4>Useful links</h4>
                 <ul>  
                  <li>
-                  <div class="mr-2">
+                  <div class="my-lg-0">
                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-instagram" viewBox="0 0 16 16">
                       <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
                     </svg>
                   </div>
-                  <a href="#">https://www.instagram.com/</a>
+                  <a class="col px-md-2" href="#">https://www.instagram.com/</a>
                   </li>
                   <li>
                     <div class="mr-2">
@@ -527,7 +465,7 @@
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
                       </svg>
                     </div>
-                   <a href="#">https://ru-ru.facebook.com/</a>
+                   <a class="col px-md-2" href="#">https://ru-ru.facebook.com/</a>
                   </li>
                   <li>
                     <div class="mr-2">
@@ -535,7 +473,7 @@
                         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
                       </svg>
                     </div>
-                    <a href="#">https://www.twitter.com/</a>
+                    <a class="col px-md-2" href="#">https://www.twitter.com/</a>
                   </li>
                   <li>
                     <div class="mr-2">
@@ -543,7 +481,7 @@
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
                       </svg>
                     </div>
-                    <a href="#">https://telegram.org/</a>
+                    <a class="col px-md-2" href="#">https://telegram.org/</a>
                   </li>
                 </ul>
             </div>
