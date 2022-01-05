@@ -24,7 +24,7 @@
     Use `git` and the Bootstrap5 Travel to create a new project
 
     ```sh
-    # create a new MyCompany site using this starter
+    # create a new Travel site using this starter
     git clone thebrokenblow/Bootstrap5_Project_Travel2
     ```
 
