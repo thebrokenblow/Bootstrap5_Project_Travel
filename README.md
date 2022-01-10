@@ -19,7 +19,7 @@
 
 ## 🚀 Quick start
 
-1. **Create a My Company site.**
+1. **Create a Travel site.**
 
     Use `git` and the Bootstrap5 Travel to create a new project
 
